@@ -1,0 +1,19 @@
+{
+    "words": [
+        "laptop",
+        "yazılım"
+    ],
+    "words_timeout_ms": 2000,
+    "pages_timeout_ms": 2000,
+    "global_timeout_ms": 10000,
+    "selectors": {
+        "search": "textarea[maxlength=\"2048\"]",
+        "link": "a.sVXRqc",
+        "linkAttribute": "data-pcu",
+        "title": "[role=\"heading\"]",
+        "description": ".Va3FIb.r025kc.lVm3ye"
+    },
+    "browser": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36')"
+    }
+}

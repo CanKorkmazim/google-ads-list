@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "commonjs",
+      "rootDir": "./src/",
+      "outDir": "./dist/",
+  //    "strict": true,
+      "moduleResolution": "node",
+      "importHelpers": false,
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+      "forceConsistentCasingInFileNames": true,
+      "removeComments": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "sourceMap": false,
+      "baseUrl": "./",
+  
+  //    "incremental": true,
+  //    "declaration": false,
+  //    "strictNullChecks": true,
+  //    "emitDecoratorMetadata": true,
+      "allowJs": true,
+  //    "noFallthroughCasesInSwitch": true,
+  //    "noUncheckedIndexedAccess": true,
+  //    "noPropertyAccessFromIndexSignature": true,
+  //    "noEmitOnError": true,
+  //    "useDefineForClassFields": true,
+  //    "noImplicitOverride": true,
+  //    "noImplicitReturns": true,
+  //    "pretty": true,
+  //    "newLine": "lf",
+  //    "stripInternal": true,
+  //    "strict": false,
+  //    "jsx": "react-jsx",
+  //    "moduleDetection": "force"
+    },
+    "include": [
+      "./**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ],
+  }
